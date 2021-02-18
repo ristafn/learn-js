@@ -23,16 +23,16 @@ myData = myArray[1][0]
 
 // push()
 myArray.push([10,9,8])
-console.log(myArray)
+// console.log(myArray)
 
 // pop() --> remove form last element in array
 var removedFromMyArray = myArray.pop()
-console.log(myArray)
+// console.log(myArray)
 
 // shift() --> remove first element in array
 var removedFromMyArray = myArray.shift()
-console.log(myArray)
+// console.log(myArray)
 
 // unshift --> add data to beginning element of array
 myArray.unshift([1,2,3])
-console.log(myArray)
+// console.log(myArray)
