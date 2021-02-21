@@ -52,3 +52,14 @@ function multiplyAll(arr) {
 var product = multiplyAll([[1,2],[3,4],[5,6,7]])
 
 console.log(product)
+
+// do while
+var myArray5 = []
+var i = 10
+
+do {
+    myArray5.push(i)
+    i++
+} while (i < 5)
+
+console.log(i, myArray5)
