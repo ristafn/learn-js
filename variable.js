@@ -69,25 +69,3 @@ function freezeObj() {
 const PI = freezeObj()
 
 console.log(PI)
-
-// use arrow functions to write concise anonymous function
-var magic = function() {
-    return new Date()
-}
-
-/* 
-or use this
-
-var magic = () => {
-    return new Date()
-}
-
-use this trick to write with one return value
-const magic = () => new Date()
-
-*/
-
-// arrow function with parameter
-var myConcat = (arr1, arr2) => arr1.concat(arr2)
-
-console.log(myConcat([1,2],[3,4,5]))
